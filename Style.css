@@ -1,0 +1,87 @@
+/* Colors and fonts */
+body {
+	background-color: rgb(100,230,230);
+	color: rgb(100,70,170);
+	font-family: "Times New Roman",;
+}
+
+h1 {
+	color: rgba(50,100,20,0.5);
+	font-family: MV Boli;
+}
+
+h2{
+	color: rgb(50,50,50);
+}
+a {
+	text-decoration: none;
+	color: rgb(150,150,129);
+	font-weight: bold;
+}
+
+p
+  {
+  font-family:"Aharoni",Georgia,Serif;
+  color: grey
+  }
+
+a:hover {
+	color: rgb(30,30,55);
+	font-family: MV Boli;
+
+}
+
+/*Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+
+
+.white-card {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+#myphoto-small{
+	width: 100px;height: 100px
+}
+.btn-blue {
+	background-color: rgb(0,255,255);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: rgb(190,190,190);
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 20px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+.list-inine i {
+	font-size: 50px;
+	color: rgb(240,255,69);
+}
+.list-inline i:hover {
+	font-size: 45px;
+	color: rgb(240,255,69);
+}
+#introduction p {
+	margin-bottom: 40px;
+}
